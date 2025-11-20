@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var sum_1 = require("./sum");
+var printId_1 = require("./printId");
+var logMessage_1 = require("./logMessage");
+console.log("==========Sum============");
+(0, sum_1.sum)(2, 4);
+console.log("==========PrintId============");
+(0, printId_1.printId)(2);
+(0, printId_1.printId)("2");
+console.log("==========Message============");
+(0, logMessage_1.message)("warning");
