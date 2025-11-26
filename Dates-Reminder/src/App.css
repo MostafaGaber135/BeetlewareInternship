@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Noto Naskh Arabic", "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  overflow-y: hidden;
+}
+
+
